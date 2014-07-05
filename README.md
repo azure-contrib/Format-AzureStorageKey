@@ -29,7 +29,8 @@ Resources:
 
 * Using Azure Storage Keys as Connection Strings: http://msdn.microsoft.com/en-us/library/azure/ee758697.aspx
 * Original version of Format-AzureStorageKey: https://gist.github.com/codingoutloud/f3c74eeceb84f2f7ae15
-* 
+
+
 FAQ:
 ----
 
