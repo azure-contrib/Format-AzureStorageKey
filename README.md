@@ -10,6 +10,7 @@ Usage:
 * Get-AzureStorageKey -StorageAccountName pragazdiags | Format-AzureStorageKey
 * Get-AzureStorageKey -StorageAccountName pragazdiags | Format-AzureStorageKey -AsConnectionString
 * Get-AzureStorageKey -StorageAccountName pragazdiags | Format-AzureStorageKey -UseSecondary -UseHttp
+* Format-AzureStorageKey
 
 Output:
 ------
@@ -19,7 +20,7 @@ bcE52sidWQbCXoxidpn6ZROL20GFVj+Ulc3X7+GbemcWOlYK6sUycAJJqmJaQ0KnQ==
 * DefaultEndpointsProtocol=_**https**_;AccountName=pragazdiags;AccountKey=9+RvXH9SeYuDyueyAtzqQ
 bcE52sidWQbCXoxidpn6ZROL20GFVj+Ulc3X7+GbemcWOlYK6sUycAJJqmJaQ0KnQ==
 * DefaultEndpointsProtocol=_**http**_;AccountName=pragazdiags;AccountKey=TUzONza19iYiZvqU12W9bj
-Z/blgG9lygTIKCBXeT3q8K6RaXCC0Xqrm3M3zm6+SiULrY+dbFdTyOl+KmsHqcJg==
+* (an ugly error will appear here since in its current state it only works while being used in a pipeline where Get-AzureStorageKey output is piped to it)
 
 
 Resources: 
