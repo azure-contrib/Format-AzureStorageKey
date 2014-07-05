@@ -1,7 +1,7 @@
 Usage Setup: 
 -------- 
 
-* To get it defined, currently I have it in my $profile (vim $PROFILE and add the code) - I know there are better options..
+* To get it defined (it is a function), currently I have it in my $profile (vim $PROFILE and add the code) - I know there are better options..
 * Before running it, make sure you have an active cert or logged in account, e.g.: Add-AzureAccount 
 * Then make sure you have selected a subscription within that account with an available storage account - in the Usage section below, that account is 'pragazdiags' which you would replace with your own
 
