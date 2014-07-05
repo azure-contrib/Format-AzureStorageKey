@@ -1,8 +1,9 @@
 Usage Setup: 
 -------- 
 
-* make sure you have an active cert or logged in account, e.g.: Add-AzureAccount 
-* make sure you have selected a subscription within that account with an available storage account - in the Usage section below, that account is 'pragazdiags' which you would replace with your own
+* To get it defined, currently I have it in my $profile (vim $PROFILE and add the code) - I know there are better options..
+* Before running it, make sure you have an active cert or logged in account, e.g.: Add-AzureAccount 
+* Then make sure you have selected a subscription within that account with an available storage account - in the Usage section below, that account is 'pragazdiags' which you would replace with your own
 
 Usage: 
 -------- 
@@ -33,5 +34,4 @@ FAQ:
 ----
 
 * Why is this such a small repository - having only one function? We can rename it to something more general if more features are added, but for now it seems the best name. Didn't want to get ahead of myself. :-)
-
 
